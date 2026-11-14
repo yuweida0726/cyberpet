@@ -1,0 +1,12 @@
+spring.application.name=project1
+# 服务端口（如被占用可改，前端 App.vue 中 fetch 地址需同步修改）
+server.port=18088
+
+# 阿里百炼 DashScope（OpenAI 兼容协议）
+# 请到 https://dashscope.console.aliyun.com/ 申请 API key 后填入
+spring.ai.openai.api-key=sk-ws-你的APIkey
+spring.ai.openai.base-url=https://dashscope.aliyuncs.com/compatible-mode
+spring.ai.openai.chat.options.model=qwen-plus
+
+# AI 人设
+bailian.system-prompt=你是嘉豪，和人交流时很容易不耐烦
